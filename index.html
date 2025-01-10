@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de compras</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    <p id="paragrafo">Você digitou: </p>
-    <p id="outroParagrafo">Outro P</p>
-    
-    <button onclick="alert('Salvo com Sucesso')">Salvar</button>
-    <button onclick="alterarP()">Clique aqui para alterar o texto do primeiro P</button>
-    <!-- <button onclick="alterarOutroP()">Clique aqui para alterar o texto do outro P</button> -->
-    
-    <br>
+    <div class="container">
+        <h1>Lista de Compras</h1>
+        <p class="subtitle">Facilite sua ida ao supermercado!</p>
 
-    <h2>Lista de Hábitos Saudáveis</h2>
-    <ol id="lista">
-        <li>Beber água</li>
-        <li>Dormir Bem</li>
-        <li>Comer Frutas</li>
-        <li>Praticar atividades físicas</li>
-    </ol>
+        <div class="form">
+            <div>
+            <input type="text" placeholder="Digite o nome do item">
+            <input type="number" placeholder="Qtd" min="1">
+            </div>
+            <button id="add">Adicionar Item</button>
+        </div>
 
-    <button onclick="adicionarHabito()">Adicionar Hábito</button>
+        <ul class="lista">
+            <!-- <li>Item</li> -->
+        </ul>
+
+        <div class="" actions>
+            <button class="clean">Limpar Lista</button>
+            <button class="clean-buy">Limpar comprados</button>
+
+        </div>
+    </div>
     <script src="script/script.js"></script>
-    
+
 </body>
+
 </html>

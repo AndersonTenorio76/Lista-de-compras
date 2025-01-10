@@ -1,0 +1,45 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Playwrite AU SA", serif;
+    background-color: #F2DEA2;
+}
+
+.container {
+    background-color: pink;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 8px;
+
+}
+h1 {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    color: blue;
+}
+
+#add {
+    background-color:darkgreen;
+    color: beige;
+    border: none;
+    width: 100%;
+    padding: 5px 0px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#add:hover {
+    background-color: orange;
+}
